@@ -1,0 +1,196 @@
+
+html {
+	height: 100%;
+}
+body {
+ font-family: 'Roboto Condensed', sans-serif;
+ height: 100%;
+ padding-top: 40px;
+}
+.landing {
+	background-image: url("images/sarah.jpg");
+ 	background-repeat: no-repeat;
+ 	background-image: cover;
+}
+.land-nav {
+	margin-top: 20px;
+	background-color: #FFF;
+	padding: 30px 40px;
+}
+.pages-nav {
+	margin: 0px 0px;
+	border: transparent;
+	display: inline;	
+}
+.studio-logo {
+	height: 70px;
+}
+span.green-pg {
+	font-size: 26px;
+	color: #BFB713;
+	vertical-align: middle;
+	padding-left: 2px;
+}
+.npr {
+	vertical-align: middle;
+	display: inline;
+}
+a.pg-link {
+	background-color: transparent;
+	color: #262424;
+	border-color: transparent;
+	font-family: inherit;
+	font-size: 24px;
+	line-height: 30px;
+	margin-left: 30px;
+	margin-top: 20px;
+	display: inline;
+}
+a.pg-link:hover {
+	border-color: transparent;
+	background: transparent;
+	text-decoration: underline;
+	color: #BFB713;
+}
+a.land {
+	font-size: 20px;
+	line-height: 70px;
+	margin-left: 0px;
+ 	margin-top: 24px; 
+}
+.contact-box {
+	margin: 40px 0px 0px;
+	width: 100%;
+	border: rgba(191, 183, 19, 0.48) 1.5px solid;
+}
+.inside-box {
+	margin-top: 66px;
+	display: inline-block;	
+}
+.team-box {	
+	border: 1.5px solid black;
+	padding: 15px;
+	margin: 40px 0 60px;
+}
+.team-row	{
+	margin-top: 0px;
+	display: inherit;
+}
+#sarah {
+	margin: 40px 0px 60px;
+}
+#casey {
+	margin: 30px 0px 60px;
+}
+#india {
+	margin: 50px 0px 60px;
+}
+.carousel-inner img {
+	max-height: 650px;
+	width: 100%;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+}
+.carousel-control .glyphicon{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+.content {
+	margin: 40px 0px;
+	border: rgba(191, 183, 19, 0.48) 1.5px solid;
+	background-color: rgba(201, 196, 196, 0.09);
+}
+.content-head {
+	background-color: whitesmoke;
+	border-bottom: rgba(191, 183, 19, 0.48) 1.5px solid;
+}
+.content-body {
+	padding: 40px;
+}
+.team-bio h3 {
+	margin: 0;
+}
+.team-img {
+	width: 100%;
+}	
+.form-line {
+padding: 5px 0px 5px 0px !important;
+}
+.form-header-group{
+margin-left: 0px !important;
+}
+#special {
+	padding-bottom: 100px;
+	margin: 40px 0px 100px;
+	border: rgba(191, 183, 19, 0.48) 1.5px solid;
+}
+#packages {
+	margin: 100px 0px 100px;
+}
+#social {
+	padding-left: 45px;
+	padding-bottom: 20px;
+	position: fixed;
+	background: transparent;
+	bottom: 0;
+	left: 0px;
+}
+span.fa {
+	margin-left: 20px;
+	color: #BFB713;
+}
+span.fa:hover {
+	color: #37546D;
+}
+#social > a > span.fa {
+	font-size: 21px;
+	margin: 0px 50px 20px 0px;
+	padding-left: 0px;
+	color:  #37546D;	
+}	
+#social > a > span.fa:hover {
+	color: #BFB713;
+} 
+#copyright {
+	color: #37546D;
+	font-size: 11px;
+	margin-left: 0px;
+	padding-left: 0px;	
+}
+#jess {
+	color: #37546D;
+}
+#jess:hover {
+	color: #BFB713;
+}
+.team-row span.fa {
+	color: #BFB713;
+	margin-top: 25px;
+}
+span.fa:hover {
+	color: #37546D;
+}
+/*
+Clean Fonts
+			font-family: "franklin-gothic-urw";
+			"futura-pt"
+
+			Color
+			light gray=green rgba(191, 183, 19, 0.19);
+			Light Gray #7a7a7a
+			green/yellow #BFB713
+	        color: #7a7a7a;
+	        background-color: rgba(255, 255, 255, 0.21);
+	        fa-blue color pick 37546D
+	        #6A6974  purple gray
+}
+#social .fa {
+
+	font-size: 20px;
+
+	color: black;
+}	
